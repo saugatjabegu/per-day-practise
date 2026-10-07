@@ -1,0 +1,9 @@
+.text{
+    text-align: center;
+    color: blue;
+}
+.line{
+    background-color: blue;
+    width: 1000%;
+    height: 8px;
+}

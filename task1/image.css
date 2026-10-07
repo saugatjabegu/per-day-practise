@@ -1,0 +1,16 @@
+.head{
+    color: green;
+}
+.button{
+    background-color: green;
+    padding:10px;
+    margin: 10px 10px 10px 10px;
+}
+.image1{
+    width: 500px;
+    background-color: cyan;
+    padding: 5px;
+    border-radius: 3px;
+    box-shadow: 10px 10px 10px blue;
+
+}
