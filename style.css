@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f5f9;
+    color: #222;
+}
+
+
+/* Header */
+
+header {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+
+/* Navigation */
+
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 17px;
+}
+
+nav a:hover {
+    color: #00bfff;
+}
+
+
+/* Hero */
+
+.hero {
+    text-align: center;
+    padding: 70px 20px;
+    background-image: url("wallpaper-edited.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    max-width: 650px;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
+/* Button */
+
+.button {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 25px;
+    background-color: #222;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.button:hover {
+    background-color: #00bfff;
+}
+
+
+/* Tasks */
+
+#tasks {
+    padding: 50px 30px;
+    text-align: center;
+}
+
+#tasks h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+
+/* Cards */
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    width: 280px;
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card h3 {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.card p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.card a {
+    display: inline-block;
+    background-color: #222;
+    color: white;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 5px;
+}
+
+.card a:hover {
+    background-color: #00bfff;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
